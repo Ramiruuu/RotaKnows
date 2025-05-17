@@ -1,0 +1,31 @@
+.hero {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2.5em;
+    color: #1E90FF;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.2em;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.features-section {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 2em;
+    color: #1E90FF;
+    text-align: center;
+    margin-bottom: 40px;
+}

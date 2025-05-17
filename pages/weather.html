@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota Knows - Weather</title>
+    <meta name="description" content="Check weather forecasts on Rota Knows.">
+    <meta name="author" content="Rota Knows">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/components.css">
+    <link rel="stylesheet" href="../styles/loader.css">
+    <link rel="stylesheet" href="../styles/layout.css">
+    <link rel="stylesheet" href="../styles/pages/section.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="navigation">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="../index.html" class="logo-link">
+                        <span class="logo-rota">Rota</span><span class="logo-knows">Knows</span>
+                    </a>
+                </div>
+                <div class="desktop-menu">
+                    <a href="../index.html" class="nav-link">Home</a>
+                    <a href="news.html" class="nav-link">News</a>
+                    <a href="location.html" class="nav-link">Location</a>
+                    <a href="calendar.html" class="nav-link">Calendar</a>
+                    <a href="weather.html" class="nav-link active">Weather</a>
+                    <a href="traveltime.html" class="nav-link">Travel Time</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <button id="menu-toggle" aria-label="Toggle mobile menu">
+                        <span class="menu-icon">☰</span>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="mobile-menu">
+                    <a href="../index.html" class="nav-link">Home</a>
+                    <a href="news.html" class="nav-link">News</a>
+                    <a href="location.html" class="nav-link">Location</a>
+                    <a href="calendar.html" class="nav-link">Calendar</a>
+                    <a href="weather.html" class="nav-link active">Weather</a>
+                    <a href="traveltime.html" class="nav-link">Travel Time</a>
+            </div>
+        </nav>
+
+        <!-- Weather Section -->
+        <main class="container">
+            <section class="section-page">
+                <h1 class="section-title">Weather Forecast</h1>
+                <div class="section-content">
+                    <div class="input-group">
+                        <input type="text" id="weatherQuery" placeholder="Enter city...">
+                        <button onclick="handleWeatherSearch()">Search</button>
+                    </div>
+                    <div class="weather-card" id="weatherInfo">
+                        <p><strong>City</strong>: [Enter a city]</p>
+                        <p><strong>Temperature</strong>: 20°C</p>
+                        <p><strong>Condition</strong>: Partly Cloudy</p>
+                        <p>Weather details will update here...</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <span class="logo-rota">Rota</span><span class="logo-knows">Knows</span>
+                        <p class="footer-tagline">Your Ultimate Travel Hub</p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-links-group">
+                            <h4 class="footer-links-title">Navigation</h4>
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="location.html">Location</a></li>
+                                <li><a href="calendar.html">Calendar</a></li>
+                                <li><a href="weather.html">Weather</a></li>
+                                <li><a href="traveltime.html">Travel Time</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="copyright">© 2025 Rota Knows. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../javascript/Utilities/helpers.js"></script>
+    <script src="../javascript/Components/navigation.js"></script>
+    <script src="../javascript/Pages/weather.js"></script>
+</body>
+</html>

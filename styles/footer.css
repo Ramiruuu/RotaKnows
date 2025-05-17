@@ -1,0 +1,88 @@
+.site-footer {
+    background-color: #F5F9FF;
+    padding: 40px 0;
+    color: #000000;
+    flex-shrink: 0; /* Ensure footer doesn't shrink */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-logo .logo-rota {
+    color: #1E90FF;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.footer-logo .logo-knows {
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.footer-tagline {
+    font-size: 0.9em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.footer-links {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.footer-links-group {
+    margin: 0 20px;
+    min-width: 150px;
+}
+
+.footer-links-title {
+    font-size: 1.1em;
+    color: #1E90FF;
+    margin-bottom: 15px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.footer-links ul li a:hover {
+    color: #1E90FF;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #1E90FF;
+}
+
+.copyright {
+    font-size: 0.8em;
+    color: #000000;
+}

@@ -1,0 +1,73 @@
+.primary-button {
+    background-color: #1E90FF;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.primary-button:hover {
+    background-color: #1C86EE;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #1E90FF;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.input-group button {
+    padding: 8px 16px;
+    background-color: #1E90FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.input-group button:hover {
+    background-color: #1C86EE;
+}
+
+.feature-card {
+    background-color: #FFFFFF;
+    border: 2px solid #1E90FF;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 200px;
+}
+
+.feature-title {
+    color: #1E90FF;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.feature-card p, .feature-card ul {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.feature-card ul {
+    list-style: none;
+}
+
+.feature-card ul li {
+    margin-bottom: 10px;
+}
+
+.nav-link.active {
+    color: #1E90FF;
+    font-weight: 600;
+}

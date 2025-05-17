@@ -1,0 +1,12 @@
+.nav-link:hover {
+    color: #1E90FF;
+    transition: color 0.3s;
+}
+
+.primary-button {
+    transition: background-color 0.3s;
+}
+
+.input-group button {
+    transition: background-color 0.3s;
+}
